@@ -1,8 +1,8 @@
-# 깃허브 잔디 색상 변경 익스텐션(GitHub Grass Color)
+## 깃허브 잔디 색상 변경 익스텐션(GitHub Grass Color)
 
 > GitHub 잔디의 색상을 자유롭게 커스터마이징할 수 있는 Chrome 확장 프로그램입니다.
 
-<img width="1281" height="800" alt="스크린샷 2026-03-24 오전 9 10 03" src="https://github.com/user-attachments/assets/22e12b6a-9134-4dd0-bdb0-648cb14f1175" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4f24936-740b-456e-95dd-8f6fdf0e6fdf" />
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/github-grass-color/jndomjpnidfiipnmlboeefknognjalnk?hl=ko&utm_source=ext_sidebar">
     → 확장 프로그램 바로가기
@@ -72,3 +72,7 @@ src/
     ├── CustomEditor.tsx   # 커스텀 색상 편집 UI
     └── ...
 ```
+
+## 회고 블로그
+
+[깃허브 잔디 색깔 바꾸러 오세요](https://velog.io/@cconac/깃허브-잔디-색깔-바꾸러-오세요)
