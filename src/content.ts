@@ -14,11 +14,11 @@ const injectStyles = (colors: ColorPalette) => {
   if (existingStyle) existingStyle.remove();
 
   const css = `
-    .js-calendar-graph-table .ContributionCalendar-day[data-level="0"], .js-calendar-graph-svg rect[data-level="0"] { fill: ${colors[0]} !important; background-color: ${colors[0]} !important; }
-    .js-calendar-graph-table .ContributionCalendar-day[data-level="1"], .js-calendar-graph-svg rect[data-level="1"] { fill: ${colors[1]} !important; background-color: ${colors[1]} !important; }
-    .js-calendar-graph-table .ContributionCalendar-day[data-level="2"], .js-calendar-graph-svg rect[data-level="2"] { fill: ${colors[2]} !important; background-color: ${colors[2]} !important; }
-    .js-calendar-graph-table .ContributionCalendar-day[data-level="3"], .js-calendar-graph-svg rect[data-level="3"] { fill: ${colors[3]} !important; background-color: ${colors[3]} !important; }
-    .js-calendar-graph-table .ContributionCalendar-day[data-level="4"], .js-calendar-graph-svg rect[data-level="4"] { fill: ${colors[4]} !important; background-color: ${colors[4]} !important; }
+    .ContributionCalendar-day[data-level="0"], rect[data-level="0"] { fill: ${colors[0]} !important; background-color: ${colors[0]} !important; }
+    .ContributionCalendar-day[data-level="1"], rect[data-level="1"] { fill: ${colors[1]} !important; background-color: ${colors[1]} !important; }
+    .ContributionCalendar-day[data-level="2"], rect[data-level="2"] { fill: ${colors[2]} !important; background-color: ${colors[2]} !important; }
+    .ContributionCalendar-day[data-level="3"], rect[data-level="3"] { fill: ${colors[3]} !important; background-color: ${colors[3]} !important; }
+    .ContributionCalendar-day[data-level="4"], rect[data-level="4"] { fill: ${colors[4]} !important; background-color: ${colors[4]} !important; }
   `;
 
   const styleElement = document.createElement('style');
